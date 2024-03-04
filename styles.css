@@ -27,6 +27,14 @@ h1 {
   color: aliceblue;
 }
 
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
 .proyectos {
   display: grid;
   background-color: beige;
@@ -46,4 +54,11 @@ h1 {
 }
 .barraportada .links {
   padding: 0px 50px 0px 50px;
+}
+
+.introtext {
+  font-size: 50px;
+  padding: 70px 200px 50px 200px;
+  position: absolute;
+  top: 100px;
 }/*# sourceMappingURL=styles.css.map */
