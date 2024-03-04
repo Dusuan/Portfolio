@@ -1,5 +1,5 @@
 body {
-  background-color: #030B12;
+  background-color: #000000;
 }
 
 h1 {
@@ -11,11 +11,32 @@ h1 {
   font-family: "Future";
   src: url(graphics/Agezka-BF65e12a949da5e.otf);
 }
+.proyectos {
+  display: grid;
+  background-color: beige;
+}
+
 .portada {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .posrelative {
   position: relative;
+}
+
+.posabsolute {
+  position: absolute;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.z-axis {
+  z-index: 2;
+}
+
+.wtext {
+  color: aliceblue;
 }/*# sourceMappingURL=styles.css.map */

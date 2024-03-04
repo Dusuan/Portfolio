@@ -1,7 +1,7 @@
 $white:white;
 
 body{
-    background-color: #030B12;
+    background-color: #000000; // #030B12
 }
 h1{
     font-family:'Future';
@@ -11,11 +11,33 @@ h1{
     font-family: "Future";
     src: url(graphics/Agezka-BF65e12a949da5e.otf);
 }
+
+.proyectos{
+    display:grid;
+    background-color: beige;
+}
+
+
+.barraportada{
+
+}
+
 .portada{
-    display: flex;
-    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
 }
 .posrelative{
     position:relative;
 }
-
+.posabsolute{
+    position:absolute;
+}
+.justify-center{
+    justify-content: center;
+}
+.z-axis {
+    z-index: 2;
+}
+.wtext{
+    color:aliceblue
+}
