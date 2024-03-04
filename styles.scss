@@ -1,43 +1,56 @@
-$white:white;
-
-body{
-    background-color: #000000; // #030B12
+$white: white;
+$teal: #233b43;
+body {
+  background-color: #000000; // #030B12
 }
-h1{
-    font-family:'Future';
-    color:$white;
+h1 {
+  font-family: "Future";
+  color: $white;
 }
 @font-face {
-    font-family: "Future";
-    src: url(graphics/Agezka-BF65e12a949da5e.otf);
+  font-family: "Future";
+  src: url(graphics/Agezka-BF65e12a949da5e.otf);
 }
-
-.proyectos{
-    display:grid;
-    background-color: beige;
+.posabsolute {
+  position: absolute;
 }
-
-
-.barraportada{
-
-}
-
-.portada{
-    display:flex;
-    flex-wrap: wrap;
-}
-.posrelative{
-    position:relative;
-}
-.posabsolute{
-    position:absolute;
-}
-.justify-center{
-    justify-content: center;
+.justify-center {
+  justify-content: center;
 }
 .z-axis {
-    z-index: 2;
+  z-index: 2;
 }
-.wtext{
-    color:aliceblue
+.wtext {
+  color: aliceblue;
+}
+//////////////////////////////////
+//////////////////////////////////
+//////////////////////////////////
+//////////////////////////////////
+//////////////////////////////////
+//////////////////////////////////
+//////////////////////////////////
+//////////////////////////////////
+//////////////////////////////////
+.proyectos {
+  display: grid;
+  background-color: beige;
+}
+
+.barraportada {
+  backdrop-filter: blur(10px);  
+  border: #000000 solid 1px;
+  padding: 10px 10px 10px 10px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  .links {
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+.intro {
 }

@@ -11,20 +11,6 @@ h1 {
   font-family: "Future";
   src: url(graphics/Agezka-BF65e12a949da5e.otf);
 }
-.proyectos {
-  display: grid;
-  background-color: beige;
-}
-
-.portada {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.posrelative {
-  position: relative;
-}
-
 .posabsolute {
   position: absolute;
 }
@@ -39,4 +25,25 @@ h1 {
 
 .wtext {
   color: aliceblue;
+}
+
+.proyectos {
+  display: grid;
+  background-color: beige;
+}
+
+.barraportada {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: #000000 solid 1px;
+  padding: 10px 10px 10px 10px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.barraportada .links {
+  padding: 0px 50px 0px 50px;
 }/*# sourceMappingURL=styles.css.map */
