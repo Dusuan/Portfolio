@@ -40,9 +40,11 @@ h1 {
 //////////////////////////////////
 .proyectos {
   display: grid;
-  background-color: beige;
+  background-color: aliceblue;
 }
-
+.nomargen {
+  margin: 0px;
+}
 .barraportada {
   backdrop-filter: blur(10px);
   border: #000000 solid 1px;
@@ -57,10 +59,20 @@ h1 {
     padding: 0px 50px 0px 50px;
   }
 }
+.separator {
+  width: 100%;
+  height: 100px;
+}
 
 .introtext {
-  font-size: 50px;
-  padding: 70px 200px 50px 200px;
+  font-size: 3vw;
+  padding: 70px 200px 10px 200px;
   position: absolute;
   top: 100px;
+}
+.proyectos {
+  background-color: #2b3d43;
+  padding: 100px 20px 100px 10px;
+  border: 2px groove #a1c2ce;
+  margin-bottom: 5px;
 }
